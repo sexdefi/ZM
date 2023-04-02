@@ -549,7 +549,7 @@ class Mint extends Component {
                         <div>{this.state.pendingToken}</div>
                     </div>
                     <div className='ModuleContentWitdh RuleTitle'>
-                        <div>待领取ZM2</div>
+                        <div>待领取TOKEN</div>
                         <div>{this.state.pendingMintReward}</div>
                     </div>
                     <div className='ModuleContentWitdh RuleTitle'>
