@@ -1,0 +1,121 @@
+@font-face{
+  font-family: 'digital';
+  src:url("./digital.ttf");
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  width: 100vw;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 44px;
+  color: #FFFFFFFF;
+  position: relative;
+}
+
+.Header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header .menu .img {
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50px;
+  height: 44px;
+}
+
+.Header .menu .img img {
+  width: 24px;
+  height: 24px;
+}
+
+.Header .HTitle{
+  position: absolute;
+  left: 14vw;
+  width: 72vw;
+  right: 14vw;
+  font-size: 20px;
+}
+
+.Header .account {
+  display: flex;
+  margin-right: 13px;
+  align-items: center;
+  height: 24px;
+  background: #393C4F;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.Header .account .Icon {
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}
+
+.Footer {
+  width: 100vw;
+}
+
+.Footer .Line {
+  width: 100vw;
+  height: 1px;
+}
+
+.Footer .CopyRight {
+  font-size: 8px;
+  text-align: center;
+  color: #787D9D;
+}
+
+.Footer .Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer .Contact .Item {
+  width: 50px;
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer .Contact .Item .Twitter {
+  width: 32px;
+  width: 32px;
+}
+
+.Footer .Contact .Item .Telegram {
+  width: 32px;
+  width: 32px;
+}
+
+.font1 {
+  font-family: Phosphate, sans-serif;
+}
+
+.font2 {
+  font-family: Hiragino Mincho, sans-serif;
+}
+
+@media screen and (max-width: 600px) {}

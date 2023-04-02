@@ -1,0 +1,51 @@
+.Token {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.Token .ModuleTop {
+    margin-top: 22px;
+}
+
+.Token .ModuleContentWitdh {
+    margin-left: 5.3vw;
+    margin-right: 5.3vw;
+    width: 83vw;
+    align-items: center;
+}
+
+.Token .button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 5.3vw;
+    margin-right: 5.3vw;
+    width: 83vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Token .Text {
+    font-weight: normal;
+    color: #787D9DFF;
+}
+
+.Token .RuleTitle {
+    justify-content: space-between;
+    display: flex;
+}
+
+.Token .RuleTitleBg {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    background: #393C4F;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
